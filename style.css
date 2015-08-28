@@ -1,0 +1,229 @@
+body{
+	background-color: white;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+}
+
+/********Navigation******/
+nav{
+	width: 1024px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+nav li{
+	padding:5px 25px 5px 25px;
+	display:inline;
+}
+nav li a{
+	color: inherit;
+	text-decoration:none;	
+}
+
+#current_page{
+	color: #C9C9C9;
+}
+
+a:hover {
+    color: #C9C9C9;
+}
+
+
+
+/*^^^^^^^Navigation^^^^^^^*/
+
+/********index page main header********/
+#main_header{
+	width: 1024px;
+	padding: 0;
+	margin: auto;
+}
+#kesia{
+	position: relative;
+	top: 75px;
+	font-family: 'Tangerine', serif;
+	font-size: 100px;
+	width: 50%;
+	margin: 0% 0% 0% 5%;
+}
+
+#calum{
+	position: relative;
+	top: -75px;
+	/*border: red 1px solid;*/
+	font-family: 'Tangerine', serif;
+	font-size: 100px;
+	width:45%;
+	margin: 0% 0% 0% 53%;
+}
+
+#and{
+	/*border: red 1px solid;*/
+	width: 350px;
+	margin: auto;
+	padding: 0;
+}
+/*^^^^^^^index page main header^^^^^^^*/
+
+/********Countdown Timer Styles********/
+#countdown{
+	margin: auto;
+	width: 1024px;
+	padding: 50px 0 50px 0;
+	/*border: red 1px solid;*/
+	text-align: center;
+}
+
+#daysBox{
+	border:black 2px solid;
+	padding:50px;
+	border-radius: 50%;
+	font-family: 'Raleway', sans-serif;
+}
+#hoursBox{
+	border:black 2px solid;
+	padding:50px;
+	border-radius: 50%;
+	font-family: 'Raleway', sans-serif;
+}
+#minsBox{
+	border:black 2px solid;
+	padding:50px;
+	border-radius: 50%;
+	font-family: 'Raleway', sans-serif;
+}
+#secsBox{
+	border:black 2px solid;
+	padding:50px;
+	border-radius: 50%;
+	font-family: 'Raleway', sans-serif;
+}
+
+#countLabels{
+	width: 1024px;
+	text-align: center;
+	margin: auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*^^^^^^^Countdown Timer Styles^^^^^^^*/
+
+/**************Page Headers************/
+h1{
+	width: 1024px;
+	margin: auto;
+	padding: 0;
+	font-family: 'Tangerine', serif;
+	text-align: center;
+	font-size: 100px;
+}
+h1 .redLetter{
+	color: #AA3939;
+}
+/*^^^^^^^^^^^^^Page Headers^^^^^^^^^^*/
+
+/**************Venue Page*************/
+#venueContent{
+	
+	width:1490px;
+	margin:auto;
+	
+
+}
+#image2, #image3{
+	
+	width:355px;
+	margin-left: 15px;
+	margin-right: 0;
+	float:left;
+
+}
+
+#where, #directions{
+	
+	width:355px;
+	margin-left:15px;
+	margin-top: 15px;
+	text-align: justify;
+	font-size: 19px;
+	float:left;
+}
+
+#where a, #transportContent a{
+	color:#AA3939;
+}
+
+#where a:hover, #transportContent a:hover{
+	color:#C9C9C9;
+}
+#directions ol{
+	width:300px;
+	margin:0;
+}
+
+
+/*^^^^^^^^^^^Venue Pages^^^^^^^^^^^^^*/
+
+/************Transport Page***********/
+#transportContent{
+	margin:auto;
+	width:1024px;
+}
+
+table{
+	margin: auto;
+	border-collapse: collapse;
+}
+
+td, th{
+	padding: 10px;
+
+}
+tr #middle{
+
+}
+#empty{
+	border-top: white solid 1px;
+	border-left: white solid 1px
+}
+
+/*^^^^^^^^^Transport Page^^^^^^^^^^^*/
+
+/**************FORM****************/
+#contactForm{
+	width: 768px;
+	margin:auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+form ul{
+	list-style-type: none;
+	
+}
+
+form li{
+	padding-bottom: 10px;
+}
+.textInputs label{
+	width:150px;
+	float: left;
+	
+}
+#commentSection p{
+	width: 300px;
+	font-size: 10px;
+}
+/*^^^^^^^^^FORM^^^^^^^^^^^^^^^*/
+/********FollowUp*********/
+#followup{
+	border: 2px #AA3939 solid;
+	width: 1024px;
+	margin: auto;
+	margin-top:50px;
+}
+#followup p{
+	text-align: center;
+}
+
+
