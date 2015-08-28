@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact</title>
+		<meta charset=utf-8>
+		<meta charset=utf-8>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Poiret One">
+		<link rel="stylesheet" type="text/css" href="../style.css">
+	</head>
+	<body>
+		<h1><span class="redLetter">C</span>ontact</h1>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="venue.html">Venue</a></li>
+				<li><a href="transport.html">Transport</a></li>
+				
+				<li id="current_page">Contact</li>
+			</ul>
+		</nav>
+		<form method="get" enctype="application/x-www-form-urlencoded" action="http://web112.otago.ac.nz/112bin/112formslab.cgi">
+			<div id="contactForm">
+				<div id="hidden_form">
+					<input type="hidden" name="recipient" value="sherwoox@gmail.com"> <!--Email address that recieves form data -->
+					<input type="hidden" name="subject" value="New User Information"> <!--Email Subject line -->
+					<input type="hidden" name="followup-page" value="followup.html"><!--Where the User is directed after they have hit submit-->
+				</div>
+				<fieldset class="textInputs">
+					<legend>Contact Details</legend>
+					<ul>
+						<li>
+							<label for="firstname">Firstname:</label>
+							<input type="text" name="First Name" id="firstname" title="Your first and any middle names" size="48" required pattern="[A-Za-z --]+" placeholder="First Name">
+						</li>
+						<li>
+							<label for="surname">Surname:</label>
+							<input type="text" name="Surname" id="surname" title="Your Surname" size="48" required placeholder="Last Name">
+						</li>
+						<li>
+							<label for="sender">Email address:</label>
+							<input type="text" name="Email" id="sender" title="Your Email Address" size="48" required placeholder="Email Address">
+						</li>
+						<li>
+							<label for="phone">Phone number:</label>
+							<input type="tel" name="Phone Number" id="phone" title="Your Contact Number" size="48" required pattern="[0-9 -()]+" placeholder="Contact Number">
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset ="RSVP">
+					<legend>RSVP</legend>
+					<ul>
+						<li>
+							<label>
+								<input type="radio" name="RSVP" id="attending" value="Attending" required>
+								Attending
+							</label>
+						</li>
+						<li>
+							<label>
+								<input type="radio" name="RSVP" value="Not Attending" id="notattending" required>
+								Not Attending
+							</label>
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset id="comment_section">
+					<legend>Message</legend>
+					<label>
+						<textarea name="Message" id="comment_section" cols="40" rows="4" id="comments" placeholder="Any Questions?"></textarea>
+					</label>
+					<p>We would love it if you would include 3 of your favourite songs in your message to contribute to the boogie playlist so we can all dance the night away to everyones favourite tunes!</p>
+				</fieldset>
+				<fieldset id="buttons">
+					<label>
+						<input type="reset" name="reset">
+					</label>
+					<label>
+						<input type="submit" value="submit">
+					</label>
+				</fieldset>
+			</div>
+	</body>
+</html>

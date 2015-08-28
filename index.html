@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<meta charset=utf-8>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Poiret One">
+		
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<script type="text/javascript">
+			function cdtd() {
+				var wedding = new Date("February 16, 2016 00:01:00");
+				var now = new Date();
+				var timeDiff = wedding.getTime() - now.getTime();
+				
+				var seconds = Math.floor(timeDiff / 1000);
+				var minutes = Math.floor(seconds / 60);
+				var hours = Math.floor(minutes / 60);
+				var days = Math.floor(hours / 24);
+				
+				hours %= 24;
+				minutes %= 60;
+				seconds %= 60;
+				
+				document.getElementById("daysBox").innerHTML = days;
+				document.getElementById("hoursBox").innerHTML = hours;
+				document.getElementById("minsBox").innerHTML = minutes;
+				document.getElementById("secsBox").innerHTML = seconds;
+				
+				var timer = setTimeout('cdtd()', 1000);
+				
+;			}
+			</script>
+			
+	</head>
+	<body>
+		<div id="main_header">
+			<h1 id="kesia"><span class="redLetter">K</span>esia Sherwood</h1>
+			<figure id="and">
+				<img src="images/and.png" alt="and symbol">
+			</figure>
+			<h1 id="calum"><span class="redLetter">C</span>alum Barrett</h1>
+		</div>
+		<nav>
+			<ul>
+				<li id="current_page">Home</li>
+				<li><a href="pages/venue.html">Venue</a></li>
+				<li><a href="pages/transport.html">Transport</a></li>
+				
+				<li><a href="pages/contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div id="countdown">
+			<span id="daysBox"></span>
+			
+			<span id="hoursBox"></span>
+			
+			<span id="minsBox"></span>
+			
+			<span id="secsBox"></span>
+
+			<script type="text/javascript">cdtd();</script>
+		</div>
+		<div id="countLabels">
+			<p>Febuary 16, 2016</p>
+			
+		</div>
+	</body>
+</html>
