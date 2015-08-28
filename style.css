@@ -4,6 +4,15 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
+/********Temp Page*******/
+#construction{
+    margin-top: 150px;
+}
+
+#construction p{
+    text-align: center;
+}
+
 /********Navigation******/
 nav{
 	width: 1024px;
